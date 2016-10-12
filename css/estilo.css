@@ -1,0 +1,65 @@
+body{
+	background-color:orange;
+}
+
+section{
+	width: 85%;
+	height: 500px;
+	border: 1px solid black;
+	margin: 0 auto 20px auto;
+}
+
+.caja{
+	width: 150px;
+	height: 150px;
+	background-color: black;
+	text-align: center;
+	color: white;
+}
+p{
+	margin: 0;
+	padding: 0;
+}
+
+/*Posición Relativa*/
+section#pos-relative{
+	position: relative;
+}
+section#pos-relative .caja{
+	position: relative;
+	left: 50%;
+	top: 50px;
+}
+
+/*Posicion Absoluta*/
+
+section#pos-absoluta{
+	position: relative;
+}
+section#pos-absoluta .caja{
+	position: absolute;
+	right: 0;
+	top: 0px;
+}
+
+/*Posicion Fija*/
+section#pos-fija{}
+section#pos-fija .caja{
+	position: fixed;
+	bottom: 50%;
+	left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
